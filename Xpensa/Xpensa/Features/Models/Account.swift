@@ -6,3 +6,10 @@
 //
 
 import Foundation
+
+struct Account: Identifiable, Hashable {
+    let id = UUID()
+    let name: String
+    var balance: Double
+    let iconName: String
+}

@@ -7,19 +7,20 @@
 
 import Foundation
 
-class AccountViewModel: ObservableObject {
+class XpensaViewModel: ObservableObject {
     @Published var accounts: [Account] = []
     
     init () {
         accounts = [
-            Account(name: "Tarjeta A", balance: 10),
-            Account(name: "Tarjeta B", balance: 20),
-            Account(name: "Tarjeta C", balance: 30)
+            Account(name: "TEC", balance: 47590.00, iconName: "building.columns.fill"),
+            Account(name: "BLUE", balance: 1848.76, iconName: "building.columns.fill"),
+            Account(name: "NU", balance: 24851.87, iconName: "creditcard.fill"),
+            Account(name: "AGAGA", balance: 24851.87, iconName: "creditcard.fill")
         ]
     }
     
-    func addAccount(name: String, value: Double) {
-        let newCard = Account(name: name, balance: value)
+    func addAccount(name: String, value: Double, iconName: String) {
+        let newCard = Account(name: name, balance: value, iconName: iconName)
         accounts.append(newCard)
     }
     

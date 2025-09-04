@@ -1,17 +1,13 @@
-//
-//  XpensaApp.swift
-//  Xpensa
-//
-//  Created by Biniza Ruiz on 03/09/25.
-//
-
 import SwiftUI
 
 @main
 struct XpensaApp: App {
+    @StateObject private var viewModel = XpensaViewModel()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            // Aquí se pasa el viewModel a la vista principal
+            XpensaView(viewModel: viewModel)
         }
     }
 }
