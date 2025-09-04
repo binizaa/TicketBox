@@ -13,7 +13,7 @@ class TicketViewModel: ObservableObject{
     
     @Published private var model = TicketApp()
         
-    var tickets: [TicketApp.Ticket] {
+    var tickets: [Ticket] {
         return model.tickets
     }
     

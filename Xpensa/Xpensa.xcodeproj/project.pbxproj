@@ -7,89 +7,62 @@
 	objects = {
 
 /* Begin PBXContainerItemProxy section */
-		F7AA4B162E4532190019C34E /* PBXContainerItemProxy */ = {
+		F7D246582E68C54000322BFE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = F7AA4B002E4532180019C34E /* Project object */;
+			containerPortal = F7D246422E68C53F00322BFE /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F7AA4B072E4532180019C34E;
-			remoteInfo = TicketBox;
+			remoteGlobalIDString = F7D246492E68C53F00322BFE;
+			remoteInfo = Xpensa;
 		};
-		F7AA4B202E4532190019C34E /* PBXContainerItemProxy */ = {
+		F7D246622E68C54000322BFE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = F7AA4B002E4532180019C34E /* Project object */;
+			containerPortal = F7D246422E68C53F00322BFE /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F7AA4B072E4532180019C34E;
-			remoteInfo = TicketBox;
+			remoteGlobalIDString = F7D246492E68C53F00322BFE;
+			remoteInfo = Xpensa;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F79994FC2E48F2C9009F62FC /* TicketBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TicketBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F79994FD2E48F2C9009F62FC /* TicketBoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TicketBoxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F79994FE2E48F2C9009F62FC /* TicketBoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TicketBoxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7D2464A2E68C53F00322BFE /* Xpensa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Xpensa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7D246572E68C54000322BFE /* XpensaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XpensaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7D246612E68C54000322BFE /* XpensaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XpensaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		F761052E2E47D90E006D8AA3 /* Exceptions for "TicketBox" folder in "TicketBox" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				App/TicketBoxApp.swift,
-				Core/Media/ImagePicker.swift,
-				Core/Persistence/CoreDataViewModel.swift,
-				Core/Persistence/Model.xcdatamodeld,
-				Features/Models/Ticket.swift,
-				Features/Models/TicketApp.swift,
-				Features/Services/TicketImageManager.swift,
-				Features/ViewModels/TicketViewModel.swift,
-				Features/Views/ContentView.swift,
-				Resources/Assets.xcassets,
-			);
-			target = F7AA4B072E4532180019C34E /* TicketBox */;
-		};
-		F76105532E47D915006D8AA3 /* Exceptions for "TicketBox" folder in "TicketBoxUITests" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				App/TicketBoxApp.swift,
-				Core/Media/ImagePicker.swift,
-				Core/Persistence/CoreDataViewModel.swift,
-				Core/Persistence/Model.xcdatamodeld,
-				Features/Models/Ticket.swift,
-				Features/Models/TicketApp.swift,
-				Features/Services/TicketImageManager.swift,
-				Features/Views/ContentView.swift,
-			);
-			target = F7AA4B1E2E4532190019C34E /* TicketBoxUITests */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		F76105212E47D900006D8AA3 /* TicketBox */ = {
+		F7D2464C2E68C53F00322BFE /* Xpensa */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				F761052E2E47D90E006D8AA3 /* Exceptions for "TicketBox" folder in "TicketBox" target */,
-				F76105532E47D915006D8AA3 /* Exceptions for "TicketBox" folder in "TicketBoxUITests" target */,
-			);
-			path = TicketBox;
+			path = Xpensa;
+			sourceTree = "<group>";
+		};
+		F7D2465A2E68C54000322BFE /* XpensaTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = XpensaTests;
+			sourceTree = "<group>";
+		};
+		F7D246642E68C54000322BFE /* XpensaUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = XpensaUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F7AA4B052E4532180019C34E /* Frameworks */ = {
+		F7D246472E68C53F00322BFE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F7AA4B122E4532190019C34E /* Frameworks */ = {
+		F7D246542E68C54000322BFE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F7AA4B1C2E4532190019C34E /* Frameworks */ = {
+		F7D2465E2E68C54000322BFE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -99,142 +72,157 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F7AA4AFF2E4532180019C34E = {
+		F7D246412E68C53F00322BFE = {
 			isa = PBXGroup;
 			children = (
-				F76105212E47D900006D8AA3 /* TicketBox */,
-				F79994FC2E48F2C9009F62FC /* TicketBox.app */,
-				F79994FD2E48F2C9009F62FC /* TicketBoxUITests.xctest */,
-				F79994FE2E48F2C9009F62FC /* TicketBoxTests.xctest */,
+				F7D2464C2E68C53F00322BFE /* Xpensa */,
+				F7D2465A2E68C54000322BFE /* XpensaTests */,
+				F7D246642E68C54000322BFE /* XpensaUITests */,
+				F7D2464B2E68C53F00322BFE /* Products */,
 			);
+			sourceTree = "<group>";
+		};
+		F7D2464B2E68C53F00322BFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7D2464A2E68C53F00322BFE /* Xpensa.app */,
+				F7D246572E68C54000322BFE /* XpensaTests.xctest */,
+				F7D246612E68C54000322BFE /* XpensaUITests.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F7AA4B072E4532180019C34E /* TicketBox */ = {
+		F7D246492E68C53F00322BFE /* Xpensa */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F7AA4B292E4532190019C34E /* Build configuration list for PBXNativeTarget "TicketBox" */;
+			buildConfigurationList = F7D2466B2E68C54000322BFE /* Build configuration list for PBXNativeTarget "Xpensa" */;
 			buildPhases = (
-				F7AA4B042E4532180019C34E /* Sources */,
-				F7AA4B052E4532180019C34E /* Frameworks */,
-				F7AA4B062E4532180019C34E /* Resources */,
+				F7D246462E68C53F00322BFE /* Sources */,
+				F7D246472E68C53F00322BFE /* Frameworks */,
+				F7D246482E68C53F00322BFE /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-			);
-			name = TicketBox;
-			packageProductDependencies = (
-			);
-			productName = TicketBox;
-			productReference = F79994FC2E48F2C9009F62FC /* TicketBox.app */;
-			productType = "com.apple.product-type.application";
-		};
-		F7AA4B142E4532190019C34E /* TicketBoxTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F7AA4B2C2E4532190019C34E /* Build configuration list for PBXNativeTarget "TicketBoxTests" */;
-			buildPhases = (
-				F7AA4B112E4532190019C34E /* Sources */,
-				F7AA4B122E4532190019C34E /* Frameworks */,
-				F7AA4B132E4532190019C34E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F7AA4B172E4532190019C34E /* PBXTargetDependency */,
-			);
-			name = TicketBoxTests;
-			packageProductDependencies = (
-			);
-			productName = TicketBoxTests;
-			productReference = F79994FE2E48F2C9009F62FC /* TicketBoxTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		F7AA4B1E2E4532190019C34E /* TicketBoxUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F7AA4B2F2E4532190019C34E /* Build configuration list for PBXNativeTarget "TicketBoxUITests" */;
-			buildPhases = (
-				F7AA4B1B2E4532190019C34E /* Sources */,
-				F7AA4B1C2E4532190019C34E /* Frameworks */,
-				F7AA4B1D2E4532190019C34E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F7AA4B212E4532190019C34E /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				F76105212E47D900006D8AA3 /* TicketBox */,
+				F7D2464C2E68C53F00322BFE /* Xpensa */,
 			);
-			name = TicketBoxUITests;
+			name = Xpensa;
 			packageProductDependencies = (
 			);
-			productName = TicketBoxUITests;
-			productReference = F79994FD2E48F2C9009F62FC /* TicketBoxUITests.xctest */;
+			productName = Xpensa;
+			productReference = F7D2464A2E68C53F00322BFE /* Xpensa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F7D246562E68C54000322BFE /* XpensaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7D2466E2E68C54000322BFE /* Build configuration list for PBXNativeTarget "XpensaTests" */;
+			buildPhases = (
+				F7D246532E68C54000322BFE /* Sources */,
+				F7D246542E68C54000322BFE /* Frameworks */,
+				F7D246552E68C54000322BFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7D246592E68C54000322BFE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F7D2465A2E68C54000322BFE /* XpensaTests */,
+			);
+			name = XpensaTests;
+			packageProductDependencies = (
+			);
+			productName = XpensaTests;
+			productReference = F7D246572E68C54000322BFE /* XpensaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F7D246602E68C54000322BFE /* XpensaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7D246712E68C54000322BFE /* Build configuration list for PBXNativeTarget "XpensaUITests" */;
+			buildPhases = (
+				F7D2465D2E68C54000322BFE /* Sources */,
+				F7D2465E2E68C54000322BFE /* Frameworks */,
+				F7D2465F2E68C54000322BFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7D246632E68C54000322BFE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F7D246642E68C54000322BFE /* XpensaUITests */,
+			);
+			name = XpensaUITests;
+			packageProductDependencies = (
+			);
+			productName = XpensaUITests;
+			productReference = F7D246612E68C54000322BFE /* XpensaUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F7AA4B002E4532180019C34E /* Project object */ = {
+		F7D246422E68C53F00322BFE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1640;
 				LastUpgradeCheck = 1640;
 				TargetAttributes = {
-					F7AA4B072E4532180019C34E = {
+					F7D246492E68C53F00322BFE = {
 						CreatedOnToolsVersion = 16.4;
 					};
-					F7AA4B142E4532190019C34E = {
+					F7D246562E68C54000322BFE = {
 						CreatedOnToolsVersion = 16.4;
-						TestTargetID = F7AA4B072E4532180019C34E;
+						TestTargetID = F7D246492E68C53F00322BFE;
 					};
-					F7AA4B1E2E4532190019C34E = {
+					F7D246602E68C54000322BFE = {
 						CreatedOnToolsVersion = 16.4;
-						LastSwiftMigration = 1640;
-						TestTargetID = F7AA4B072E4532180019C34E;
+						TestTargetID = F7D246492E68C53F00322BFE;
 					};
 				};
 			};
-			buildConfigurationList = F7AA4B032E4532180019C34E /* Build configuration list for PBXProject "TicketBox" */;
+			buildConfigurationList = F7D246452E68C53F00322BFE /* Build configuration list for PBXProject "Xpensa" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = F7AA4AFF2E4532180019C34E;
+			mainGroup = F7D246412E68C53F00322BFE;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = F7AA4AFF2E4532180019C34E;
+			productRefGroup = F7D2464B2E68C53F00322BFE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F7AA4B072E4532180019C34E /* TicketBox */,
-				F7AA4B142E4532190019C34E /* TicketBoxTests */,
-				F7AA4B1E2E4532190019C34E /* TicketBoxUITests */,
+				F7D246492E68C53F00322BFE /* Xpensa */,
+				F7D246562E68C54000322BFE /* XpensaTests */,
+				F7D246602E68C54000322BFE /* XpensaUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F7AA4B062E4532180019C34E /* Resources */ = {
+		F7D246482E68C53F00322BFE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F7AA4B132E4532190019C34E /* Resources */ = {
+		F7D246552E68C54000322BFE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F7AA4B1D2E4532190019C34E /* Resources */ = {
+		F7D2465F2E68C54000322BFE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -244,21 +232,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F7AA4B042E4532180019C34E /* Sources */ = {
+		F7D246462E68C53F00322BFE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F7AA4B112E4532190019C34E /* Sources */ = {
+		F7D246532E68C54000322BFE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F7AA4B1B2E4532190019C34E /* Sources */ = {
+		F7D2465D2E68C54000322BFE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -268,20 +256,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		F7AA4B172E4532190019C34E /* PBXTargetDependency */ = {
+		F7D246592E68C54000322BFE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F7AA4B072E4532180019C34E /* TicketBox */;
-			targetProxy = F7AA4B162E4532190019C34E /* PBXContainerItemProxy */;
+			target = F7D246492E68C53F00322BFE /* Xpensa */;
+			targetProxy = F7D246582E68C54000322BFE /* PBXContainerItemProxy */;
 		};
-		F7AA4B212E4532190019C34E /* PBXTargetDependency */ = {
+		F7D246632E68C54000322BFE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F7AA4B072E4532180019C34E /* TicketBox */;
-			targetProxy = F7AA4B202E4532190019C34E /* PBXContainerItemProxy */;
+			target = F7D246492E68C53F00322BFE /* Xpensa */;
+			targetProxy = F7D246622E68C54000322BFE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		F7AA4B272E4532190019C34E /* Debug */ = {
+		F7D246692E68C54000322BFE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -345,7 +333,7 @@
 			};
 			name = Debug;
 		};
-		F7AA4B282E4532190019C34E /* Release */ = {
+		F7D2466A2E68C54000322BFE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -402,7 +390,7 @@
 			};
 			name = Release;
 		};
-		F7AA4B2A2E4532190019C34E /* Debug */ = {
+		F7D2466C2E68C54000322BFE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -412,7 +400,6 @@
 				DEVELOPMENT_TEAM = AQMR747B88;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -423,7 +410,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = binizarz.TicketBox;
+				PRODUCT_BUNDLE_IDENTIFIER = binizarz.Xpensa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -431,7 +418,7 @@
 			};
 			name = Debug;
 		};
-		F7AA4B2B2E4532190019C34E /* Release */ = {
+		F7D2466D2E68C54000322BFE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -441,7 +428,6 @@
 				DEVELOPMENT_TEAM = AQMR747B88;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -452,7 +438,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = binizarz.TicketBox;
+				PRODUCT_BUNDLE_IDENTIFIER = binizarz.Xpensa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -460,7 +446,7 @@
 			};
 			name = Release;
 		};
-		F7AA4B2D2E4532190019C34E /* Debug */ = {
+		F7D2466F2E68C54000322BFE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -470,16 +456,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = binizarz.TicketBoxTests;
+				PRODUCT_BUNDLE_IDENTIFIER = binizarz.XpensaTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TicketBox.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TicketBox";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Xpensa.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Xpensa";
 			};
 			name = Debug;
 		};
-		F7AA4B2E2E4532190019C34E /* Release */ = {
+		F7D246702E68C54000322BFE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -489,92 +475,89 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = binizarz.TicketBoxTests;
+				PRODUCT_BUNDLE_IDENTIFIER = binizarz.XpensaTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TicketBox.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TicketBox";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Xpensa.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Xpensa";
 			};
 			name = Release;
 		};
-		F7AA4B302E4532190019C34E /* Debug */ = {
+		F7D246722E68C54000322BFE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = AQMR747B88;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = binizarz.TicketBoxUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = binizarz.XpensaUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TicketBox;
+				TEST_TARGET_NAME = Xpensa;
 			};
 			name = Debug;
 		};
-		F7AA4B312E4532190019C34E /* Release */ = {
+		F7D246732E68C54000322BFE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = AQMR747B88;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = binizarz.TicketBoxUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = binizarz.XpensaUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TicketBox;
+				TEST_TARGET_NAME = Xpensa;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F7AA4B032E4532180019C34E /* Build configuration list for PBXProject "TicketBox" */ = {
+		F7D246452E68C53F00322BFE /* Build configuration list for PBXProject "Xpensa" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F7AA4B272E4532190019C34E /* Debug */,
-				F7AA4B282E4532190019C34E /* Release */,
+				F7D246692E68C54000322BFE /* Debug */,
+				F7D2466A2E68C54000322BFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F7AA4B292E4532190019C34E /* Build configuration list for PBXNativeTarget "TicketBox" */ = {
+		F7D2466B2E68C54000322BFE /* Build configuration list for PBXNativeTarget "Xpensa" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F7AA4B2A2E4532190019C34E /* Debug */,
-				F7AA4B2B2E4532190019C34E /* Release */,
+				F7D2466C2E68C54000322BFE /* Debug */,
+				F7D2466D2E68C54000322BFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F7AA4B2C2E4532190019C34E /* Build configuration list for PBXNativeTarget "TicketBoxTests" */ = {
+		F7D2466E2E68C54000322BFE /* Build configuration list for PBXNativeTarget "XpensaTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F7AA4B2D2E4532190019C34E /* Debug */,
-				F7AA4B2E2E4532190019C34E /* Release */,
+				F7D2466F2E68C54000322BFE /* Debug */,
+				F7D246702E68C54000322BFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F7AA4B2F2E4532190019C34E /* Build configuration list for PBXNativeTarget "TicketBoxUITests" */ = {
+		F7D246712E68C54000322BFE /* Build configuration list for PBXNativeTarget "XpensaUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F7AA4B302E4532190019C34E /* Debug */,
-				F7AA4B312E4532190019C34E /* Release */,
+				F7D246722E68C54000322BFE /* Debug */,
+				F7D246732E68C54000322BFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = F7AA4B002E4532180019C34E /* Project object */;
+	rootObject = F7D246422E68C53F00322BFE /* Project object */;
 }

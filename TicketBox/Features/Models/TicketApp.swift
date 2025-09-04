@@ -18,6 +18,7 @@ struct TicketApp {
     
     mutating func addTicket( _ date : Date, _ imageData : UIImage) {
         let newTicket = Ticket(
+            id: UUID(),
             date: date,
             imageData: imageData
         )
@@ -26,29 +27,14 @@ struct TicketApp {
         
         print("Se agrego")
         
+        let coreData = CoreDataViewModel()
+        
+        coreData.addTicket(newTicket)
+        
         //let imageManager = TicketImageManager()
         
         //let url = imageManager.saveTicketImage(imageData, "ticket_12345")
         
         //print(url as Any)
-    }
-    
-    struct Ticket : Identifiable, CustomDebugStringConvertible {
-        
-        var debugDescription: String {
-            return """
-            Ticket ID: \(id)
-            Fecha: \(date.formatted())
-            Imagen: \(imageData != nil ? "Sí" : "No")
-            """
-        }
-        
-        var id = UUID()
-        var date: Date
-        //var amount: Double
-        //var category: String
-        //var description: String
-        var imageData: UIImage?
-
     }
 }

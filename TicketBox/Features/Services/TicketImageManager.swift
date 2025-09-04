@@ -1,76 +1,42 @@
-//
-//  TicketImageManager.swift
-//  TicketBox
-//
-//  Created by Biniza Ruiz on 08/08/25.
-//
-import Foundation
+// TicketImageManager.swift
 import UIKit
 
-class TicketImageManager {
-    let fileManager = FileManager.default
-
-    var documentsDirectory: URL {
-        guard let url = fileManager.urls(for: .documentDirectory, in: .userDomainMask).first else {
-            fatalError("Dont found")
+final class TicketImageManager {
+    private let fm = FileManager.default
+    
+    private var directoryURL: URL {
+        // Documents/TicketImages
+        let base = fm.urls(for: .documentDirectory, in: .userDomainMask).first!
+        let dir = base.appendingPathComponent("TicketImages", isDirectory: true)
+        if !fm.fileExists(atPath: dir.path) {
+            try? fm.createDirectory(at: dir, withIntermediateDirectories: true)
         }
-        
-        return url
+        return dir
     }
     
-    var ticketImagesDirectory: URL {
-        return documentsDirectory.appendingPathExtension("TicketImages")
-    }
-    
-    init() {
-        createTicketImagesDirectory()
-    }
-    
-    private func createTicketImagesDirectory() {
+    /// Guarda imagen como PNG. Retorna el nombre de archivo (para guardar en Core Data).
+    @discardableResult
+    func saveTicketImage(_ image: UIImage, _ suggestedName: String) -> String {
+        let filename = "\(suggestedName).png"
+        let url = directoryURL.appendingPathComponent(filename)
+        guard let data = image.pngData() else { return "" }
         do {
-            try fileManager.createDirectory(at: ticketImagesDirectory, withIntermediateDirectories: true, attributes: nil)
-            print("Ticket manager: \(ticketImagesDirectory.path)")
+            try data.write(to: url, options: .atomic)
+            return filename
         } catch {
-            print("Error tickets manager: \(error.localizedDescription)")
+            print("❗️Error guardando imagen: \(error)")
+            return ""
         }
     }
     
-    func saveTicketImage(_ image: UIImage,_ name: String) -> URL? {
-        let fileName = "\(name).png"
-        let fileURL = ticketImagesDirectory.appendingPathComponent(fileName)
-        
-        guard let imageData = image.pngData() else {
-            print("Error: Could not convert image to PNG Data.")
-            return nil
-        }
-        
-        do {
-            try imageData.write(to: fileURL)
-            print("Ticket image successfully saved to: \(fileURL.path)")
-            return fileURL
-        } catch {
-            print("Error saving ticket image: \(error.localizedDescription)")
-            return nil
-        }
+    func loadTicketImage(named filename: String) -> UIImage? {
+        let url = directoryURL.appendingPathComponent(filename)
+        guard fm.fileExists(atPath: url.path) else { return nil }
+        return UIImage(contentsOfFile: url.path)
     }
     
-    func loadTicketImage(_ fileName: String) -> UIImage? {
-        let fileURL = ticketImagesDirectory.appendingPathComponent(fileName)
-        
-        do {
-            let imageData = try Data(contentsOf: fileURL)
-            
-            if let image = UIImage(data: imageData) {
-                print("Ticket image successfully uploaded \(fileName)")
-                return image
-            }else {
-                print("Error: Could not create UIImage from data")
-                return nil
-            }
-        }catch {
-            print("Error loading ticket image \(fileName)")
-            return nil
-        }
+    func deleteTicketImage(named filename: String) {
+        let url = directoryURL.appendingPathComponent(filename)
+        try? fm.removeItem(at: url)
     }
-    
 }

@@ -34,7 +34,6 @@ struct ContentView: View {
         VStack {
             ForEach(viewModel.tickets) { ticket in
                 HStack {
-                    Text(ticket.debugDescription)
                     if let image = ticket.imageData {
                         Image(uiImage: image)
                             .resizable()
